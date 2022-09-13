@@ -1,0 +1,383 @@
+@media (max-width: 768px) {
+
+    header {
+        .bg-light {
+
+            .container-fluid {
+                justify-content: space-between;
+            }
+        }
+    }
+
+    body {
+        #foto-inicio {
+            height: 200px;
+            padding-top: 90px;
+
+            .primero {
+                margin-left: 120px;
+                font-size: 30px;
+                width: 242px;
+                height: 44px;
+            }
+
+            .tranquilidad {
+                margin-left: 65px;
+                width: 339px;
+                font-size: 23px;
+                height: 32px;
+            }
+        }
+
+        .service {
+            font-size: 35px;
+        }
+
+        .row {
+            width: 500px;
+            margin-left: 130px;
+
+            .col {
+
+
+                .card {
+
+                    .card-body-car {
+
+                        .card-text {
+                            font-size: 14px;
+                            width: 150px;
+                        }
+                    }
+
+                    .card-body1 {
+                        display: flex;
+                        justify-content: center;
+                        margin-bottom: 11px;
+
+                        .card-text {
+                            font-size: 14px;
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .mision {
+            .inicio {
+                width: 450px;
+                font-size: 22px;
+            }
+        }
+
+        .confianza {
+            margin: 15px 0px 15px 0px;
+            text-align: center;
+            font-size: 35px;
+        }
+    }
+
+    footer {
+        .card-footer {
+
+            .row2 {
+
+                .card-body {
+
+                    .card-title {
+                        font-size: 13px;
+                        margin-top: 35px;
+                    }
+
+                    .card-text3 {
+                        font-size: 13px;
+                    }
+
+                }
+            }
+        }
+
+        #copyright {
+            font-size: 13px;
+        }
+    }
+
+
+    // Vehículos //
+
+    #foto-vehiculos {
+        padding-top: 1px;
+        height: 228px;
+    }
+
+    .conduce-tranqui {
+        margin: 5px 0px 0px 20px;
+        font-size: 27px;
+        width: 336px;
+    }
+}
+
+.cotizacion {
+    width: 257px;
+    line-height: 16px;
+    margin-left: 16px;
+    font-size: 15px;
+
+    .solicitud-coti {
+        font-size: 21px;
+        margin-top: 3%;
+
+        .form-car {
+            padding-top: 7px;
+
+            input {
+                margin-bottom: 9px;
+                width: 200px;
+            }
+
+            .formulario {
+                margin-left: 15px;
+                width: 18px;
+            }
+
+            .si {
+                width: 15px;
+                margin-right: 5px;
+            }
+
+            .no {
+                width: 15px;
+            }
+        }
+    }
+}
+
+.cotizacion-der {
+    width: 60%;
+    bottom: 3rem;
+
+    .bloque1 div {
+        display: inline-block;
+        width: 44%;
+        margin-bottom: 50px;
+
+        .title-car {
+            font-size: 16px;
+        }
+
+        .text-car {
+            font-size: 14px;
+        }
+    }
+
+    .bloque2 div {
+        display: inline-block;
+        width: 44%;
+
+        .title-car {
+            font-size: 16px;
+        }
+
+        .text-car {
+            font-size: 14px;
+        }
+    }
+}
+
+.table {
+    font-size: 14px;
+    width: 76%;
+}
+
+// Viviendas //
+
+#casa {
+    height: 232px;
+    padding-top: 50px;
+
+    .vivienda {
+        margin-left: 312px;
+        width: 412px;
+        height: 108px;
+        font-size: 17px;
+    }
+}
+
+.viviendas {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.porque-contratar {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#home {
+
+    .img-home {
+        width: 34%;
+        height: 174px;
+    }
+
+    .list-home {
+        margin-bottom: 3px;
+        width: 330px;
+        line-height: 20px;
+
+        .lista-home {
+            margin-bottom: 3px;
+            width: 359px;
+            font-size: 13px;
+        }
+    }
+}
+
+.tipos-planes {
+    margin-top: 12px;
+    font-size: 24px;
+}
+
+.table-home {
+    width: 700px;
+    margin-left: 8px;
+}
+
+.table-bordered {
+    border: black 2px solid;
+    width: 590px;
+    font-size: 14px;
+}
+
+#info-table {
+    margin: 15px 15px 0px 8px;
+    line-height: 14px;
+}
+
+//Comercios// 
+
+#comerc {
+    padding-top: 50px;
+    height: 225px;
+
+    .pyme {
+        margin-left: 38px;
+        width: 470px;
+        font-size: 17px;
+    }
+}
+
+.comercios {
+    font-size: 29px;
+}
+
+#work {
+
+    .work-img {
+        height: 165px;
+    }
+
+    .list-work {
+        width: 383px;
+        line-height: 30px;
+        font-size: 15px;
+
+        .lista-home {
+            margin-bottom: 5px;
+            width: 458px;
+        }
+    }
+}
+
+.table {
+    margin: 5% 0% 4% 12%;
+}
+
+//Caución//
+
+#caucion-image {
+    height: 259px;
+    padding-top: 102px;
+
+    .image-caucion {
+        font-size: 18px;
+        margin-left: 53px;
+        width: 467px;
+    }
+}
+
+.contratar {
+    font-size: 30px;
+}
+
+.cau-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+    .caucion-mobile {
+        border: 2px black solid;
+        border-radius: 10px;
+        height: 180px;
+    }
+
+    .list-cau {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 359px;
+        line-height: 26px;
+    }
+}
+
+.tipos-coberturas {
+    margin: 5% 0% 2% 0%;
+    font-size: 27px;
+}
+
+.card-text2 {
+    font-size: 13px;
+}
+
+.img-cau {
+    margin: 0px 16px 7px 0px;
+}
+
+// Contacto //
+
+.row-contact {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .col-2 {
+        width: 25%;
+
+        .card {
+            .img-contact {
+                width: 28%;
+                margin-top: 4%;
+            }
+
+            .card-body {
+                .card-title {
+                    font-size: 15px;
+                }
+                .card-text {
+                    font-size: 14px;
+                    width: 97%;
+                }
+                button {
+                    width: 93%;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .h-100 {
+            width: 108%;
+        }
+    }
+}

@@ -1,0 +1,832 @@
+#foto-vehiculos .conduce-tranqui, .viviendas, .comercios, .contratar, .contact {
+  font-size: 35px;
+  text-align: center; }
+
+header .bg-light {
+  background-color: rgba(155, 221, 247, 0.808) !important; }
+  header .bg-light .container-fluid {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(155, 221, 247, 0.808); }
+  header .bg-light .collapse {
+    justify-content: flex-end;
+    font-size: 19px; }
+  header .bg-light div ul li:hover {
+    text-decoration: underline; }
+
+body {
+  background-image: linear-gradient(to bottom, rgba(155, 221, 247, 0.808), rgba(157, 181, 189, 0.555)); }
+  body .breadcrumb-item {
+    margin-left: 10px; }
+  body #foto-inicio {
+    justify-content: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/foto-inicio.jpg");
+    height: 390px;
+    padding-top: 190px; }
+    body #foto-inicio .primero {
+      margin-left: 250px;
+      font-style: 150px;
+      font-size: 35px;
+      width: 278px;
+      background-color: rgba(224, 224, 224, 0.685);
+      height: 46px; }
+    body #foto-inicio .tranquilidad {
+      margin-left: 185px;
+      width: 410px;
+      font-size: 28px;
+      background-color: rgba(224, 224, 224, 0.685);
+      font-weight: bold;
+      height: 38px; }
+  body .service {
+    margin-bottom: 25px;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic; }
+  body .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; }
+    body .row .col {
+      text-align: center;
+      width: 220px; }
+      body .row .col .card {
+        border: 2px black solid; }
+        body .row .col .card .card-img-top {
+          width: 150px; }
+        body .row .col .card .card-img-top:hover {
+          transform: skew(5deg);
+          transition: .5s; }
+        body .row .col .card .card-body-car {
+          margin-bottom: 12px;
+          display: flex;
+          justify-content: center; }
+          body .row .col .card .card-body-car .card-text {
+            font-size: 16px;
+            width: 170px;
+            font-weight: bold; }
+        body .row .col .card .card-body1 {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 11px; }
+          body .row .col .card .card-body1 .card-text {
+            font-size: 16px;
+            width: 170px;
+            font-weight: bold; }
+  body .mision {
+    background-color: #272626;
+    display: flex;
+    justify-content: center; }
+    body .mision .inicio {
+      text-align: center;
+      align-items: center;
+      width: 750px;
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+      margin: 10px 0px 10px 0px; }
+  body .confianza {
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    font-size: 35px; }
+  body .empresas {
+    margin-left: 52px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+  body .empresas2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px 92px 20px 0px;
+    margin-left: 95px; }
+
+#foto-vehiculos {
+  justify-content: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/conducir.jpg");
+  height: 316px;
+  padding-top: 36px;
+  margin-bottom: 30px; }
+  #foto-vehiculos .conduce-tranqui {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0.685);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 100px 0px 0px 120px;
+    font-style: 130px;
+    width: 280px;
+    height: 65px; }
+
+.cotizacion {
+  text-align: center;
+  width: 270px;
+  background-color: rgba(172, 172, 172, 0.897);
+  display: inline-block;
+  line-height: 20px;
+  margin-left: 20px;
+  border: 2px black solid;
+  border-radius: 10px;
+  font-size: 17px; }
+  .cotizacion .form-car {
+    padding-top: 19px;
+    margin: 0px 0px 20px 5px; }
+    .cotizacion .form-car input {
+      margin-bottom: 10px;
+      width: 230px; }
+    .cotizacion .form-car .formulario {
+      margin-left: 16px;
+      width: 20px; }
+    .cotizacion .form-car .si {
+      width: 17px;
+      margin-right: 5px; }
+    .cotizacion .form-car .no {
+      width: 17px; }
+
+.cotizacion-der {
+  width: 69%;
+  display: inline-block;
+  position: relative;
+  bottom: 4rem;
+  text-align: center; }
+  .cotizacion-der .bloque1 div {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 60px; }
+    .cotizacion-der .bloque1 div .title-car {
+      font-size: 20px; }
+    .cotizacion-der .bloque1 div .text-car {
+      font-size: 17px; }
+  .cotizacion-der .bloque2 div {
+    display: inline-block;
+    width: 49%; }
+    .cotizacion-der .bloque2 div .title-car {
+      font-size: 20px; }
+    .cotizacion-der .bloque2 div .text-car {
+      font-size: 17px; }
+
+.table {
+  width: 72%;
+  margin: 2% 0% 3% 12%; }
+
+.table-bordered {
+  border: black 4px solid !important; }
+
+#casa {
+  justify-content: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/madre-con-hija.jpg");
+  height: 397px;
+  padding-top: 120px; }
+  #casa .vivienda {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0.685);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 650px;
+    width: 580px;
+    height: 152px; }
+
+.viviendas {
+  margin-top: 10px; }
+
+.porque-contratar {
+  text-align: center;
+  margin-bottom: 20px; }
+
+#home {
+  display: flex;
+  justify-content: center; }
+  #home .img-home {
+    border: 2px black solid;
+    border-radius: 5px; }
+  #home .list-home {
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 450px;
+    line-height: 25px;
+    list-style-type: disc; }
+    #home .list-home .lista-home {
+      margin-bottom: 5px;
+      width: 450px; }
+
+.tipos-planes {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 26px; }
+
+.table-home {
+  width: 900px;
+  margin-left: 10px; }
+
+.table-bordered {
+  border: black 4px solid;
+  width: 750px; }
+
+#info-table {
+  margin: 10px 0px 0px 5px;
+  line-height: 12px; }
+
+#comerc {
+  justify-content: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/comercio.jpg");
+  padding-top: 150px;
+  height: 425px; }
+  #comerc .pyme {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0.685);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 80px;
+    width: 690px; }
+
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #work .work-img {
+    border: 2px black solid;
+    border-radius: 5px; }
+  #work .list-work {
+    width: 450px;
+    line-height: 41px;
+    list-style-type: disc; }
+    #work .list-work .lista-home {
+      margin-bottom: 5px;
+      width: 450px; }
+
+.table {
+  width: 72%;
+  border: 2px black solid;
+  margin: 2% 0% 3% 12%; }
+
+#caucion-image {
+  justify-content: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/mano-caucion.jpg");
+  height: 455px;
+  padding-top: 150px; }
+  #caucion-image .image-caucion {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0.685);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 150px;
+    width: 538px; }
+
+.contratar {
+  margin-bottom: 25px; }
+
+.cau-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px; }
+  .cau-section .caucion-mobile {
+    border: 2px black solid;
+    border-radius: 10px; }
+  .cau-section .list-cau {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    width: 445px;
+    line-height: 29px; }
+
+.tipos-coberturas {
+  margin: 50px 0px 25px 0px;
+  text-align: center;
+  font-size: 29px; }
+
+.card-text2 {
+  font-size: 15px;
+  width: 170px;
+  margin-bottom: 25px; }
+
+.img-cau {
+  margin: 10px 70px 10px 0px; }
+
+.row-contact {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 100%; }
+  .row-contact .col-2 {
+    width: 25%; }
+    .row-contact .col-2 .card .img-contact {
+      width: 28%;
+      margin-top: 4%; }
+    .row-contact .col-2 .h-100 {
+      align-items: center;
+      border: 2px black solid; }
+
+.contact {
+  margin: 2% 0 3% 0; }
+
+.contact2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%; }
+
+.form-mobile {
+  font-size: 17px;
+  width: 260px;
+  border: 2px black solid;
+  text-align: center;
+  background-color: #8f8f8f;
+  height: 379px;
+  padding-top: 1%; }
+  .form-mobile .form-contacto {
+    margin-bottom: 2%;
+    border: 2px black solid; }
+    .form-mobile .form-contacto .form-contact .send {
+      margin-top: 12px;
+      font-size: 16px;
+      width: 90px; }
+
+.maps {
+  margin-left: 16%; }
+
+footer .card-footer {
+  background-color: white;
+  border: 2px black solid;
+  height: 160px;
+  margin-top: 50px; }
+  footer .card-footer .row2 {
+    display: flex; }
+    footer .card-footer .row2 .rounded-start {
+      margin: 20px 0px 0px 20px; }
+    footer .card-footer .row2 .card-body {
+      margin-left: 35px; }
+      footer .card-footer .row2 .card-body .card-title {
+        margin-top: 15px; }
+
+footer #copyright {
+  text-align: center;
+  font-weight: bolder; }
+
+@media (max-width: 768px) {
+  header .bg-light .container-fluid {
+    justify-content: space-between; }
+  body #foto-inicio {
+    height: 200px;
+    padding-top: 90px; }
+    body #foto-inicio .primero {
+      margin-left: 120px;
+      font-size: 30px;
+      width: 242px;
+      height: 44px; }
+    body #foto-inicio .tranquilidad {
+      margin-left: 65px;
+      width: 339px;
+      font-size: 23px;
+      height: 32px; }
+  body .service {
+    font-size: 35px; }
+  body .row {
+    width: 500px;
+    margin-left: 130px; }
+    body .row .col .card .card-body-car .card-text {
+      font-size: 14px;
+      width: 150px; }
+    body .row .col .card .card-body1 {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 11px; }
+      body .row .col .card .card-body1 .card-text {
+        font-size: 14px;
+        width: 150px; }
+  body .mision .inicio {
+    width: 450px;
+    font-size: 22px; }
+  body .confianza {
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    font-size: 35px; }
+  footer .card-footer .row2 .card-body .card-title {
+    font-size: 13px;
+    margin-top: 35px; }
+  footer .card-footer .row2 .card-body .card-text3 {
+    font-size: 13px; }
+  footer #copyright {
+    font-size: 13px; }
+  #foto-vehiculos {
+    padding-top: 1px;
+    height: 228px; }
+  .conduce-tranqui {
+    margin: 5px 0px 0px 20px;
+    font-size: 27px;
+    width: 336px; } }
+
+.cotizacion {
+  width: 257px;
+  line-height: 16px;
+  margin-left: 16px;
+  font-size: 15px; }
+  .cotizacion .solicitud-coti {
+    font-size: 21px;
+    margin-top: 3%; }
+    .cotizacion .solicitud-coti .form-car {
+      padding-top: 7px; }
+      .cotizacion .solicitud-coti .form-car input {
+        margin-bottom: 9px;
+        width: 200px; }
+      .cotizacion .solicitud-coti .form-car .formulario {
+        margin-left: 15px;
+        width: 18px; }
+      .cotizacion .solicitud-coti .form-car .si {
+        width: 15px;
+        margin-right: 5px; }
+      .cotizacion .solicitud-coti .form-car .no {
+        width: 15px; }
+
+.cotizacion-der {
+  width: 60%;
+  bottom: 3rem; }
+  .cotizacion-der .bloque1 div {
+    display: inline-block;
+    width: 44%;
+    margin-bottom: 50px; }
+    .cotizacion-der .bloque1 div .title-car {
+      font-size: 16px; }
+    .cotizacion-der .bloque1 div .text-car {
+      font-size: 14px; }
+  .cotizacion-der .bloque2 div {
+    display: inline-block;
+    width: 44%; }
+    .cotizacion-der .bloque2 div .title-car {
+      font-size: 16px; }
+    .cotizacion-der .bloque2 div .text-car {
+      font-size: 14px; }
+
+.table {
+  font-size: 14px;
+  width: 76%; }
+
+#casa {
+  height: 232px;
+  padding-top: 50px; }
+  #casa .vivienda {
+    margin-left: 312px;
+    width: 412px;
+    height: 108px;
+    font-size: 17px; }
+
+.viviendas {
+  font-size: 25px;
+  margin-top: 5px; }
+
+.porque-contratar {
+  font-size: 17px;
+  margin-bottom: 10px; }
+
+#home .img-home {
+  width: 34%;
+  height: 174px; }
+
+#home .list-home {
+  margin-bottom: 3px;
+  width: 330px;
+  line-height: 20px; }
+  #home .list-home .lista-home {
+    margin-bottom: 3px;
+    width: 359px;
+    font-size: 13px; }
+
+.tipos-planes {
+  margin-top: 12px;
+  font-size: 24px; }
+
+.table-home {
+  width: 700px;
+  margin-left: 8px; }
+
+.table-bordered {
+  border: black 2px solid;
+  width: 590px;
+  font-size: 14px; }
+
+#info-table {
+  margin: 15px 15px 0px 8px;
+  line-height: 14px; }
+
+#comerc {
+  padding-top: 50px;
+  height: 225px; }
+  #comerc .pyme {
+    margin-left: 38px;
+    width: 470px;
+    font-size: 17px; }
+
+.comercios {
+  font-size: 29px; }
+
+#work .work-img {
+  height: 165px; }
+
+#work .list-work {
+  width: 383px;
+  line-height: 30px;
+  font-size: 15px; }
+  #work .list-work .lista-home {
+    margin-bottom: 5px;
+    width: 458px; }
+
+.table {
+  margin: 5% 0% 4% 12%; }
+
+#caucion-image {
+  height: 259px;
+  padding-top: 102px; }
+  #caucion-image .image-caucion {
+    font-size: 18px;
+    margin-left: 53px;
+    width: 467px; }
+
+.contratar {
+  font-size: 30px; }
+
+.cau-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px; }
+  .cau-section .caucion-mobile {
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 180px; }
+  .cau-section .list-cau {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 359px;
+    line-height: 26px; }
+
+.tipos-coberturas {
+  margin: 5% 0% 2% 0%;
+  font-size: 27px; }
+
+.card-text2 {
+  font-size: 13px; }
+
+.img-cau {
+  margin: 0px 16px 7px 0px; }
+
+.row-contact {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 100%; }
+  .row-contact .col-2 {
+    width: 25%; }
+    .row-contact .col-2 .card .img-contact {
+      width: 28%;
+      margin-top: 4%; }
+    .row-contact .col-2 .card .card-body .card-title {
+      font-size: 15px; }
+    .row-contact .col-2 .card .card-body .card-text {
+      font-size: 14px;
+      width: 97%; }
+    .row-contact .col-2 .card .card-body button {
+      width: 93%;
+      font-size: 15px; }
+    .row-contact .col-2 .h-100 {
+      width: 108%; }
+
+@media (max-width: 375px) {
+  body #foto-inicio {
+    height: 137px;
+    padding-top: 33px; }
+    body #foto-inicio .primero {
+      margin-left: 39px;
+      font-size: 23px;
+      width: 184px;
+      height: 32px; }
+    body #foto-inicio .tranquilidad {
+      margin-left: 5px;
+      width: 277px;
+      font-size: 19px;
+      height: 26px; }
+  body .service {
+    font-size: 29px; }
+  body .row {
+    width: 361px;
+    margin-left: 2px; }
+    body .row .col {
+      width: 175px; }
+      body .row .col .card {
+        width: 157px; }
+        body .row .col .card .card-img-top {
+          width: 96px; }
+        body .row .col .card .card-body-car .card-text {
+          font-size: 13px;
+          width: 150px; }
+        body .row .col .card .card-body1 {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 11px; }
+          body .row .col .card .card-body1 .card-text {
+            font-size: 13px;
+            width: 150px; }
+  body .mision .inicio {
+    width: 279px;
+    font-size: 17px; }
+  body .confianza {
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    font-size: 22px; }
+  .empresas {
+    flex-direction: column;
+    margin-left: 10px;
+    padding-right: 35px; }
+    .empresas .img-index-phone {
+      margin-bottom: 8px; }
+  .empresas2 {
+    flex-direction: column; }
+    .empresas2 .img-index-phone {
+      margin-bottom: 5px; }
+  footer .card-footer .row2 .card-body .card-title {
+    font-size: 13px;
+    margin-top: 20px; }
+  footer .card-footer .row2 .card-body .card-text3 {
+    font-size: 13px; }
+  footer #copyright {
+    font-size: 10px; }
+  #foto-vehiculos {
+    padding-top: 1px;
+    height: 112px; }
+    #foto-vehiculos .conduce-tranqui {
+      margin: 20px 0px 0px 8px;
+      font-size: 19px;
+      width: 207px;
+      height: 54px; }
+  .cotizacion {
+    width: 247px;
+    line-height: 14px;
+    margin-left: 13px;
+    font-size: 14px; }
+    .cotizacion .solicitud-coti {
+      font-size: 20px;
+      margin-top: 3%; }
+      .cotizacion .solicitud-coti .form-car {
+        padding-top: 7px; }
+        .cotizacion .solicitud-coti .form-car input {
+          margin-bottom: 9px;
+          width: 200px; }
+        .cotizacion .solicitud-coti .form-car .formulario {
+          margin-left: 15px;
+          width: 18px; }
+        .cotizacion .solicitud-coti .form-car .si {
+          width: 15px;
+          margin-right: 5px; }
+        .cotizacion .solicitud-coti .form-car .no {
+          width: 15px; }
+  .cotizacion-der {
+    width: 100%;
+    bottom: 2rem; }
+    .cotizacion-der .bloque1 div {
+      display: inline-block;
+      width: 44%;
+      margin-top: 80px; }
+      .cotizacion-der .bloque1 div .title-car {
+        font-size: 15px; }
+      .cotizacion-der .bloque1 div .text-car {
+        font-size: 13px;
+        width: 170px; }
+    .cotizacion-der .bloque2 div {
+      display: inline-block;
+      width: 44%; }
+      .cotizacion-der .bloque2 div .title-car {
+        font-size: 15px; }
+      .cotizacion-der .bloque2 div .text-car {
+        font-size: 13px;
+        width: 170px; }
+  .table {
+    margin: 1%;
+    font-size: 10px;
+    width: 98%; }
+  #casa {
+    height: 117px;
+    padding-top: 18px; }
+    #casa .vivienda {
+      margin-left: 117px;
+      width: 246px;
+      height: 66px;
+      font-size: 10px; }
+  .viviendas {
+    font-size: 23px;
+    margin-top: 1px; }
+  .porque-contratar {
+    font-size: 16px;
+    margin-bottom: 8px; }
+  #home {
+    flex-direction: column; }
+    #home .img-home {
+      width: 57%;
+      height: 169px;
+      margin: 0 auto; }
+    #home .list-home {
+      margin-bottom: 3px;
+      width: 330px;
+      line-height: 20px; }
+      #home .list-home .lista-home {
+        margin-bottom: 3px;
+        width: 301px;
+        font-size: 13px;
+        margin-top: 8px; }
+  .tipos-planes {
+    margin-top: 10px;
+    font-size: 22px; }
+  .table-home {
+    width: 700px;
+    margin-left: 8px; }
+  .table-bordered {
+    border: black 1px solid;
+    width: 360px;
+    font-size: 11px; }
+  #info-table {
+    margin: 15px 15px 0px 8px;
+    line-height: 13px;
+    font-size: 14px; }
+  #comerc {
+    padding-top: 30px;
+    height: 120px; }
+    #comerc .pyme {
+      margin-left: 8px;
+      width: 251px;
+      font-size: 9px; }
+  .comercios {
+    font-size: 26px; }
+  #work {
+    flex-direction: column; }
+    #work .work-img {
+      height: 165px; }
+    #work .list-work {
+      width: 343px;
+      line-height: 26px;
+      font-size: 13px; }
+      #work .list-work .lista-home {
+        margin-bottom: 5px;
+        width: 458px; }
+  .table {
+    margin: 3% 1% 2% 1%; }
+  #caucion-image {
+    height: 129px;
+    padding-top: 15px; }
+    #caucion-image .image-caucion {
+      font-size: 12px;
+      margin-left: 15px;
+      width: 312px; }
+  .contratar {
+    font-size: 18px; }
+  .cau-section {
+    flex-direction: column; }
+    .cau-section .caucion-mobile {
+      height: 158px;
+      width: 251px;
+      margin: 0 auto; }
+    .cau-section .list-cau {
+      font-size: 13px;
+      width: 337px;
+      line-height: 22px; }
+  .tipos-coberturas {
+    margin: 5% 0% 4% 0%;
+    font-size: 25px; }
+  .card-text2 {
+    font-size: 13px;
+    width: 150px; }
+  .img-cau {
+    margin: 0px; }
+  .contact {
+    font-size: 23px; }
+  .row-contact {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%; }
+    .row-contact .col-2 {
+      width: 25%; }
+      .row-contact .col-2 .card .img-contact {
+        width: 28%;
+        margin-top: 4%; }
+      .row-contact .col-2 .card .card-body .card-title {
+        font-size: 11px; }
+      .row-contact .col-2 .card .card-body .card-text {
+        font-size: 10px;
+        width: 97%; }
+      .row-contact .col-2 .card .card-body button {
+        width: 93%;
+        font-size: 10px; }
+      .row-contact .col-2 .h-100 {
+        width: 108%; } }

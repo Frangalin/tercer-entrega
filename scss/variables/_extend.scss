@@ -1,0 +1,19 @@
+%titulos {
+    font-size: 35px;
+    text-align: center;
+}
+
+@mixin subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0.685);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@mixin images-first {
+    justify-content: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
